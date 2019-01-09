@@ -1,3 +1,0 @@
-"D:\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\WebHookProccesser.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\WebHookProccesser.dir/objects.a @CMakeFiles\WebHookProccesser.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\WebHookProccesser.dir/objects.a -Wl,--no-whole-archive  -o WebHookProccesser.exe -Wl,--out-implib,libWebHookProccesser.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\WebHookProccesser.dir\linklibs.rsp

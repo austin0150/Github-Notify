@@ -5,7 +5,6 @@
  */
 
 const secret = "supersecret";
-const proccessExe = "home/pi/proccess/notify";
 
 const http = require ('http');
 const crypto = require('crypto');
@@ -14,7 +13,9 @@ const exec = require('child_process').exec;
 console.log('Application Started');
 
 http.createServer((request, response) => {
-    if(request.method === 'POST'){
-        console.log('Webhook recieved');
-    }
+        if(request.method === 'POST'){
+                console.log('Webhook recieved');
+                exec('"/home/pi/GPIO/song"');
+
+        }
 }).listen(8080);
