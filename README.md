@@ -18,3 +18,8 @@ executed and plays a song on an rPi buzzer.
 * Paste the address in the github webhook setup
 * Start a new terminal, run the webhook server with "node Server.js"
 * Boom, you should be ready to get a webhook. If you have the same speaker setup I do, you should hear a little song when you get a webhook.
+
+## Dependencies
+* WiringPI
+* NodeJS
+
