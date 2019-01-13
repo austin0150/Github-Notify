@@ -1,5 +1,5 @@
 # Github-Notify
-## Very small and simple program to to recieve webhooks and then play a sound from a buzzer
+## Very small and simple program to to recieve webhooks and then play a sound from a passive buzzer
 An http server is run with nodeJS and waits for webhooks, in this case from github. When the webhook is recieved, a C program is
 executed and plays a song on an rPi buzzer.
 
@@ -23,3 +23,8 @@ executed and plays a song on an rPi buzzer.
 * WiringPI
 * NodeJS
 
+## Wiring setup
+![alt text](https://github.com/austin0150/Github-Notify/blob/master/Images/20190101_184255.jpg "Wiring image")
+* 5V to pin 2 (5V)
+* GND to pin 6 (GND)
+* Signal to pin 11 (GPIO 17)
